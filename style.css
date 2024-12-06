@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+#navbar{
+   position: sticky;
+   top: 0;
+   left:0;
+   z-index:100;
+   padding:.5rem 5rem ;
+   box-shadow: 5px 5px 20px rgba(0, 0,0,.5);
+   background-color: black;
+}
+.navbar-brand{
+    color: rgb(23, 250, 23) !important;
+    font-size:25px;
+    font-weight:800;
+}
+.nav-item a{
+    color:#fff;
+    border-bottom:2px solid transparent;
+}
+.nav-item a:hover{
+    border-bottom:2px solid rgb(23, 250, 23) ;
+}
+#ll{
+    width:60px;
+    height:60px;
+    padding:10px;
+}
+#si{
+    background-color: rgb(23, 250, 23) ;
+    border-radius:15px;
+    width:5rem;
+}
+section{
+    width:100%;
+    min-height:100vh;  
+}
+
+                                                  /*--------HOME-------*/
+#home{
+    display: flex;
+    justify-content:center;
+    align-items:end;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-direction:column;
+    margin-bottom: 0;
+}
+.h{
+    padding-right:90px;
+    font-family: "Anton SC", sans-serif;
+    color: rgb(253, 251, 251);
+}
+  
+h3{
+    border-bottom: 2px solid yellow;
+}
+.bt{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing:1px;
+    font-size: 1em;
+    padding:5px;
+    color:black;
+    width:200px;
+    border: 2px solid yellow;
+    background-color: yellow;
+    text-align: center;
+}
+
+
+input{
+    font-size: 1em;
+    padding:5px;
+    border-radius: 20px;
+}
+
+
+
+                                                  /*--------ABOUT-------*/
+#about{
+    background-color:#a28089; 
+    margin-bottom: 10px;
+}
+#about img{
+    margin-top:100px;
+    width:400px;
+    height:400px;
+    
+}
+p{
+    margin-top:110px;
+    text-align:left;
+    color:  #200602;
+    margin-bottom: 0;
+}
+
+                                                   /*--------CARS-------*/
+#cars img{
+    width:200px;
+    height:200px;
+ }
+#cars{
+    background-color:#12343b;
+   
+}
+#cars .card{
+    border: 0;
+    padding: 2px;
+    margin: 2px;
+}
+
+#cars .card:hover{
+    border:6px solid rgb(207, 231, 55);
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+
+#bn{
+    justify-content: center;
+    text-align: center;
+    background-color: chocolate;
+}
+#bn:hover{
+    background-color:rgba(185, 131, 14, 0.807);
+}
+
+.del{
+    display: flex;
+
+}
+.p1{
+    color: red;
+}
+.p2{
+  margin-left: 150px;
+}
+
+                           /*------contact-------*/
+
+#contact{
+    min-height: 90vh;
+}
+                           
+.carousel-inner{ 
+ height:600px;
+}
+
+footer{
+
+   background-color: #ee2c60; 
+   margin-bottom:0px;
+}
+a{
+    color: rgb(72, 18, 234);
+    margin: 20px;
+    font-size:20px;
+}
+#i:hover{
+    border:2px solid black;
+    color: burlywood;
+    padding: 5px;
+    font-size:20px;
+}
+
